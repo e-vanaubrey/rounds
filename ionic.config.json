@@ -1,0 +1,7 @@
+{
+  "name": "Rounds",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
