@@ -1,0 +1,16 @@
+.preview {
+  transform: scale(0.2, 0.2);
+  width: 500px;
+  height: 500px;
+  object-fit: none;
+  border-radius: 100%;
+  position: relative;
+  margin-top: -100px;
+}
+
+.connected {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+}

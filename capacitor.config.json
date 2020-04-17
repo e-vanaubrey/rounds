@@ -1,8 +1,14 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.roundschat.app",
   "appName": "Rounds",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
-  "cordova": {}
+  "cordova": {},
+  "plugins": {
+    "GoogleAuth": {
+    "scopes": ["profile","email"],
+    "serverClientId": "973177318221-15cl7lfvu34kt111ob9g3t3hpqfor5n9.apps.googleusercontent.com"
+    }
+    }
 }
